@@ -1,0 +1,62 @@
+    
+
+    h1 {
+      color: #007BFF;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #009688;
+      color: white;
+    }
+
+    td {
+      background-color: #e0f7fa;
+    }
+
+    .lista-personalizada li {
+      margin-bottom: 5px;
+    }
+
+    .lista-personalizada-ol li::marker {
+      color: red;
+      font-weight: bold;
+    }
+
+    .lista-personalizada-ul li::marker {
+      color: green;
+      content: "→ ";
+    }
+
+    dl {
+      background-color: #fff3cd;
+      padding: 15px;
+      border-left: 5px solid #ffc107;
+      margin-bottom: 20px;
+    }
+
+    dt {
+      font-weight: bold;
+      color: #795548;
+    }
+
+    dd {
+      margin: 0 0 10px 20px;
+      color: #6d4c41;
+    }
+
+    .resaltado {
+      color: #e91e63;
+      font-weight: bold;
+    }
